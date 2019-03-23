@@ -1,4 +1,23 @@
+# Preparation
+
+## Gyroscope
+
+- MPU6050
+- BMI160
+
+## Motor
+
+## Control board
+
+- arduino
+  - Beetle
+  - Uno
+  - Nano
+
+
+
 # Mar 10th, 2019-Voltage Fitness
+
 It's REALLY necessary to check the input voltage of the components. To be honest, it's the most important step during the preperation. Though it's pretty easy to find the components that fits each other, but there's still ones that don't.
 
 Tip 1: Confirm your voltage. Make sure that the battery voltage fits the components.
@@ -42,22 +61,28 @@ To up-side-down the beetle board in order to access the port.
 - the positive and negative of the board would reverse
   - battery protection may fail
   - easy to misconnect the + and - ports
-- 
 
 #### Beneath the board
 
 - require lots more welds
 - larger volume
-- 
 
 ### To have additional wires
 
 - wires may be blocked by RESET  port and the capacitance
 - lots more welds
 
+##Final approach: pluggable connection without weld
+
+- To weld the female end of solid tip jump wire to the beetle. Therefore, it’s pluggable without welding. 
+
+  [image of this method]
+
+- Also, I weld an additional wire since there is enough space as the board is elevated. 
 
 
-# Mar 23th-Common Ground problem
+
+# Mar 23th, 2019-Common Ground problem
 
 Common ground refers to that you have to connect the GND if there are multiple power sources for different components, especially when you are trying to let them communicate.
 
