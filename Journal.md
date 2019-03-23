@@ -10,6 +10,8 @@ Methods to adjust the voltage:
 - Resistance
 - Chip
 
+
+
 # Mar 22th, 2019-Wire connection
 
 A problem comes out while I was trying to get data from gyro and screen: the port is on the backside of the board, which is be blocked by the extension board.
@@ -53,3 +55,12 @@ To up-side-down the beetle board in order to access the port.
 - wires may be blocked by RESET  port and the capacitance
 - lots more welds
 
+
+
+# Mar 23th-Common Ground problem
+
+Common ground refers to that you have to connect the GND if there are multiple power sources for different components, especially when you are trying to let them communicate.
+
+The sensor, especially the sensor for single chip, output and input signals with HIGH or LOW voltage. However,  the voltage level is relative to the level on GND. In other words, the GND must be connected in order to provide a common base line of the signal. 
+
+It’s pretty similar with the fact that you cannot find out the voltage while you put one needle of multimeter on one circuit while putting the other needle on another. There is no potential difference between these points, therefore impossible to measure the voltage.
