@@ -24,12 +24,29 @@ Tip 1: Confirm your voltage. Make sure that the battery voltage fits the compone
 
 Tip 2: Adjust the voltage when unfitness do exist. For example, to change the battery or to change the output voltage of board. The Beetle used in this project has a output voltage level as same as the battery (it's really excited to find out that the voltage can be easily changed by changing a battery instead of other complicated methods lol). Or, to find other ways to increase or decrease the output voltage by additional components (resistance, arduino, micro potential transformer, etc...)
 
-Methods to adjust the voltage:
-- PWM
-- Resistance
-- Chip
+## Methods to adjust the voltage:
+### PWM
 
+- Can only adjust to a lower voltage
+- Possible higher efficiency by using the high-frequency switch
 
+### Resistance
+
+- Waste energy
+- Can only lower the voltage
+- Need calculation
+- The constant resistance one is difficult to determine or change, while the changeable one is either not suitable for large power or has problem on reliability
+
+### Chip
+
+- Possible lower efficiency by using the MOS
+- 
+
+### Transformer (变压器)
+
+- Physical isolation of input and out put.
+- Large volume
+- Cheap
 
 # Mar 22th, 2019-Wire connection
 
@@ -72,7 +89,7 @@ To up-side-down the beetle board in order to access the port.
 - wires may be blocked by RESET  port and the capacitance
 - lots more welds
 
-##Final approach: pluggable connection without weld
+## Final approach: pluggable connection without weld
 
 - To weld the female end of solid tip jump wire to the beetle. Therefore, it’s pluggable without welding. 
 
@@ -81,6 +98,12 @@ To up-side-down the beetle board in order to access the port.
 - Also, I weld an additional wire since there is enough space as the board is elevated. 
 
 
+
+# Mar 22th, 2019-A Failure: a copper foil falls off from the board
+
+This happened when I was trying to disconnect the Beetle and the expansion board. To fully wipe off the Tin on the port, I used a copper wire to absorb it which require long-time heating. It cause the falling off of the D9 port and waste it.
+
+A expanded research question: How to adjust the setting of tempreture or other parameters so that the foil will not fall off while the Tin can be wiped out enough to pull out the components?
 
 # Mar 23th, 2019-Common Ground problem
 
