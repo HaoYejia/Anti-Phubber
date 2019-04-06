@@ -3,7 +3,12 @@
 ## Gyroscope
 
 - MPU6050
+
 - BMI160
+
+  ![](https://github.com/HaoYejia/Anti-Phubber/blob/master/Images/BMI160-RealPhoto.jpg?raw=true)
+
+  
 
 ## Motor
 
@@ -120,3 +125,36 @@ The battery I use is Li-on one that has a output voltage of 3.7V. After using fo
 The reason why this problem emerged recently is probably that the output voltage of the battery is 0.xV higher than now. Therefore, it’s just suitable for booting the board and support some low-power tasks. My test of the board is the “blink” program, blinking the built-in LED of the board. This LED is so low-power that cannot determine the voltage issue well. It’s not discovered until I use the voltmeter to measure the voltage.
 
 Well, the best solution of this case is to add a voltage raising module that produce enough power. Or, this problem shouldn’t exist at the beginning. It’s probably better for me to have a brand-new set of components instead of using what I have. It’s necessary to investigate the parameter of the board I am going to buy, but it’s also important to do this so on the board I have now. 
+
+
+
+# Apr 4th, 2019-Reverse Connection of Terminal Due to the Design of port
+
+A problem occur when I was trying to connect the battery to the DC-DC component. The port (PH2.0) has positive terminal at left on the board, while the positive terminal is at right on the battery. In other words, if the battery is directly connected to the DC-DC module (the PH2.0 port is monodirectional, there is only onw way to plug in), the terminals of the power input would reverse.
+
+[image]
+
+That is exactly what I’ve done. What makes it worse is that the DC-DC module do not has a built-in reverse connection protection. Usually it could possibly cause the overheat of the chip and can highly possible ruins it. 
+
+The best solution is to reverse the wires of the battery to fit the board, while introducing another problem of where to connect the line. The port on the board is the chip one, which has little room to remove the port or add additional wires. While the wire connected to the battery is too short to sustain enough length after welding multiple times.
+
+Therefore, I weld the wire on the pins of a dual-in-line input components (beside the PH2.0 port). To do this so is easy to remove the wire in the future and reduce the risk of damaging the board by operating on the tiny PH2.0 port.
+
+[image]
+
+
+
+# Apr 5th, 2019-Mistakenly Reverse Connection of the Terminals of Components
+
+This problem has mistakenly occurred many times by connect the power wire of components to the power source reversely. The result is usually overheat of the chip.
+
+Therefore, a protection module is in great need among the following methods:
+
+## Single diode with cross-line
+
+## Single diode built in the wire
+
+## Diode bridge
+
+## MOS
+
