@@ -164,3 +164,26 @@ Therefore, a protection module is in great need among the following methods:
 
 THE DATA FROM GYROSCOPE IS FIIIIIIIIIIIINALLY EXTRACTED!!!!!
 
+
+
+# Apr 20th, 2019-A problem of button state detecting
+
+When I was trying to digital read the state of the button (on or off) in order to mark for the data collection, a problem occurs. When the button is switched off (confirm by a ohm meter that the resistance this time is infinity), the reading of the signal level is sometimes HIGH, which ought to always be LOW.
+
+Vibration is eliminated as a causing since this only occur in pressing procedure (more specifically, it would only happens to a BUTTON instead of a SWITCH). What I am using is a switch. By testing, the input voltage is constant and could not be the reason. 
+
+What’s more, this only occurs when the button is connected to S (signal) and +(positive terminal). The reading is constant at LOW when the switch is connected to S and -.
+
+![](https://github.com/HaoYejia/Anti-Phubber/blob/master/Images/A%20problem%20of%20button%20state%20detecting1.png?raw=true)
+
+As it shown, the left one always detected LOW at S as the switch is on or off. However, the right one sometimes occurs HIGH when the switch is switched off.
+
+The solution (by the help of my dad) is following:
+
+![](https://github.com/HaoYejia/Anti-Phubber/blob/master/Images/A%20problem%20of%20button%20state%20detecting2.png?raw=true)
+
+The reason that this problem occurs is that the voltage level of the pin is a little bit high to trigger the HIGH signal (by measuring, the voltage vibrates between 300mV and 900mV, not quite low enough to stay at LOW constantly). By connecting like this, the illusory-high-voltage error can be solved.
+
+In this case, the signal detected is always HIGH when the switch is off. The resistance this time used for letting the signal detectable and protect the circuit is called pull-up resister, while this procedure is called pull-up. 
+
+Then, the signal detected is always LOW when the switch is on. By previous tests, this time the signal is constant at LOW. Therefore, the problem is avoid as it doesn’t even meet the conditions (connect S and + by switch) that problem occurs.
