@@ -158,3 +158,9 @@ Therefore, a protection module is in great need among the following methods:
 
 ## MOS
 
+
+
+# Apr 6th, 2019-A mile stone
+
+THE DATA FROM GYROSCOPE IS FIIIIIIIIIIIINALLY EXTRACTED!!!!!
+
