@@ -15,3 +15,8 @@ The cervical dieases of the public have became more and more servere since the b
 
 ### Connection diagram
 
+
+
+## Algorithm
+
+- The total acceleration is calculated in unit of g. After correcting the zero shift, the perfect acceleration should be 1g. A threshold value should be set to determine when to stop collecting data (to prevent the problem of accuracy introduced by violent movement)

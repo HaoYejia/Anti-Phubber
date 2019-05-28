@@ -187,3 +187,21 @@ The reason that this problem occurs is that the voltage level of the pin is a li
 In this case, the signal detected is always HIGH when the switch is off. The resistance this time used for letting the signal detectable and protect the circuit is called pull-up resister, while this procedure is called pull-up. 
 
 Then, the signal detected is always LOW when the switch is on. By previous tests, this time the signal is constant at LOW. Therefore, the problem is avoid as it doesn’t even meet the conditions (connect S and + by switch) that problem occurs.
+
+# May 18th,2019 - Correction
+
+The IMU I am using has a problem of zero drift (actually all IMU has this problem more or less), which needs manual correction.
+
+The zero drift is the systematic error of the sensor at static condition. For example, the expected original data of accel-meter is {0,0,1}, while the actual data received is {0.2.0.2,1.04}. The correction of the zero drift is pretty similar to the correction of systematic error in IB: to substract the drift for every sets of data.
+
+However, the primary problem is to collect the data and calculate the correction value. For either two ways, the main thought is to calculate the avarage of a few given set of data. 
+
+The first one, the most basic one, is to declare a lot of variable for every set of data in this calculation and do the calculation as the returned value directly. The advantage is that the uncertainty is under control and the error would not boost easily.
+
+The second one is to use add the new set of data to the pool of the sum of data sets, and calculate the average independently for each trail. This way can make the codes much easier to read and adjust. However, the massive multiplication and division and adding would boost the error since each calculation includes a lost of a few digits. 
+
+# May 18th, 2019 - Declare the Function
+
+1. the experience to find the problem
+2. the use of pointer
+
