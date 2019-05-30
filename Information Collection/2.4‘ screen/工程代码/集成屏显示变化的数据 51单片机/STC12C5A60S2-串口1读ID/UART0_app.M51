@@ -1,0 +1,292 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        12/21/2016  17:32:18  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE UART0_ID-Rosc.obj TO UART0_app RAMSIZE (256)
+
+
+MEMORY MODEL: LARGE
+
+
+INPUT MODULES INCLUDED:
+  UART0_ID-Rosc.obj (UART0_ID_ROSC)
+  C:\KEIL\C51\LIB\C51L.LIB (?C_STARTUP)
+  C:\KEIL\C51\LIB\C51L.LIB (?C?COPY)
+  C:\KEIL\C51\LIB\C51L.LIB (?C?CLDPTR)
+  C:\KEIL\C51\LIB\C51L.LIB (?C?LSHL)
+  C:\KEIL\C51\LIB\C51L.LIB (?C?LSTXDATA)
+  C:\KEIL\C51\LIB\C51L.LIB (?C?LSTKXDATA)
+  C:\KEIL\C51\LIB\C51L.LIB (PRINTF)
+  C:\KEIL\C51\LIB\C51L.LIB (?C_INIT)
+  C:\KEIL\C51\LIB\C51L.LIB (?C?CLDOPTR)
+  C:\KEIL\C51\LIB\C51L.LIB (?C?CSTPTR)
+  C:\KEIL\C51\LIB\C51L.LIB (?C?PLDIXDATA)
+  C:\KEIL\C51\LIB\C51L.LIB (?C?PSTXDATA)
+  C:\KEIL\C51\LIB\C51L.LIB (?C?CCASE)
+  C:\KEIL\C51\LIB\C51L.LIB (PUTCHAR)
+
+
+LINK MAP OF MODULE:  UART0_app (UART0_ID_ROSC)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0005H     UNIT         _DATA_GROUP_
+                    000DH     0013H                  *** GAP ***
+            BIT     0020H.0   0001H.1   UNIT         _BIT_GROUP_
+            BIT     0021H.1   0000H.1   UNIT         ?BI?UART0_ID_ROSC
+                    0021H.2   0000H.6                *** GAP ***
+            IDATA   0022H     0001H     UNIT         ?STACK
+
+            * * * * * * *  X D A T A   M E M O R Y  * * * * * * *
+            XDATA   0000H     0310H     UNIT         ?XD?UART0_ID_ROSC
+            XDATA   0310H     00B4H     UNIT         _XDATA_GROUP_
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     001FH     UNIT         ?PR?UART0_RCV?UART0_ID_ROSC
+                    0022H     0001H                  *** GAP ***
+            CODE    0023H     0003H     ABSOLUTE     
+            CODE    0026H     0463H     UNIT         ?CO?UART0_ID_ROSC
+            CODE    0489H     0365H     UNIT         ?PR?PRINTF?PRINTF
+            CODE    07EEH     0305H     UNIT         ?C_INITSEG
+            CODE    0AF3H     01E4H     UNIT         ?C?LIB_CODE
+            CODE    0CD7H     01AAH     UNIT         ?PR?MAIN?UART0_ID_ROSC
+            CODE    0E81H     008CH     UNIT         ?C_C51STARTUP
+            CODE    0F0DH     0027H     UNIT         ?PR?PUTCHAR?PUTCHAR
+            CODE    0F34H     001BH     UNIT         ?PR?UART0_INIT?UART0_ID_ROSC
+            CODE    0F4FH     0013H     UNIT         ?PR?_PRINTSTRINGS?UART0_ID_ROSC
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/21/2016  17:32:18  PAGE 2
+
+
+            CODE    0F62H     0012H     UNIT         ?PR?_HEX2DEC?UART0_ID_ROSC
+            CODE    0F74H     000AH     UNIT         ?PR?_TXBYTE?UART0_ID_ROSC
+
+
+
+OVERLAY MAP OF MODULE:   UART0_app (UART0_ID_ROSC)
+
+
+SEGMENT                                    BIT_GROUP          DATA_GROUP          XDATA_GROUP
+  +--> CALLED SEGMENT                   START    LENGTH     START    LENGTH     START    LENGTH
+-----------------------------------------------------------------------------------------------
+?C_C51STARTUP                           -----    -----      -----    -----      -----    -----
+  +--> ?PR?MAIN?UART0_ID_ROSC
+  +--> ?C_INITSEG
+
+?PR?MAIN?UART0_ID_ROSC                  -----    -----      -----    -----      0310H    008CH
+  +--> ?CO?UART0_ID_ROSC
+  +--> ?PR?UART0_INIT?UART0_ID_ROSC
+  +--> ?PR?_PRINTSTRINGS?UART0_ID_ROSC
+  +--> ?PR?PRINTF?PRINTF
+
+?PR?_PRINTSTRINGS?UART0_ID_ROSC         -----    -----      -----    -----      -----    -----
+  +--> ?PR?_TXBYTE?UART0_ID_ROSC
+
+?PR?PRINTF?PRINTF                       0020H.0  0001H.1    0008H    0005H      039CH    0028H
+  +--> ?PR?PUTCHAR?PUTCHAR
+
+?C_INITSEG                              -----    -----      -----    -----      -----    -----
+  +--> ?CO?UART0_ID_ROSC
+
+
+
+SYMBOL TABLE OF MODULE:  UART0_app (UART0_ID_ROSC)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        UART0_ID_ROSC
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  C:0F4FH         PUBLIC        _PrintStrings
+  C:0F34H         PUBLIC        uart0_init
+  B:00A8H.7       PUBLIC        EA
+  B:00A8H.4       PUBLIC        ES
+  X:0000H         PUBLIC        Rosc
+  B:0098H.0       PUBLIC        RI
+  B:0098H.1       PUBLIC        TI
+  C:0CD7H         PUBLIC        main
+  D:0099H         PUBLIC        SBUF
+  D:0087H         PUBLIC        PCON
+  D:0098H         PUBLIC        SCON
+  D:0089H         PUBLIC        TMOD
+  C:0003H         PUBLIC        UART0_RCV
+  B:0021H.1       PUBLIC        B_TI
+  D:008EH         PUBLIC        AUXR
+  C:0409H         SYMBOL        _?ix1000
+  X:0004H         PUBLIC        Command
+  X:0005H         PUBLIC        pstr
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/21/2016  17:32:18  PAGE 3
+
+
+  X:0305H         PUBLIC        id
+  D:008DH         PUBLIC        TH1
+  B:0088H.6       PUBLIC        TR1
+  C:0F74H         PUBLIC        _TxByte
+  C:0F62H         PUBLIC        _HEX2DEC
+  X:030CH         PUBLIC        RoscZ
+  -------         PROC          MAIN
+  -------         DO            
+  X:0310H         SYMBOL        i
+  D:0006H         SYMBOL        j
+  X:0311H         SYMBOL        p
+  X:0312H         SYMBOL        cmd
+  X:0392H         SYMBOL        x
+  X:0393H         SYMBOL        y
+  X:0394H         SYMBOL        tdata
+  X:0395H         SYMBOL        number
+  X:0397H         SYMBOL        ch
+  X:039AH         SYMBOL        k
+  -------         ENDDO         
+  C:0CD7H         LINE#         83
+  C:0CD7H         LINE#         84
+  C:0CD7H         LINE#         88
+  C:0CEAH         LINE#         89
+  C:0CF0H         LINE#         90
+  C:0CF4H         LINE#         91
+  C:0CF8H         LINE#         92
+  C:0D00H         LINE#         95
+  C:0D0AH         LINE#         97
+  C:0D10H         LINE#         98
+  C:0D1FH         LINE#         99
+  C:0D1FH         LINE#         100
+  C:0D30H         LINE#         101
+  C:0D36H         LINE#         102
+  C:0D3EH         LINE#         104
+  C:0D48H         LINE#         105
+  C:0D99H         LINE#         106
+  C:0DA3H         LINE#         107
+  C:0DF4H         LINE#         109
+  C:0DF7H         LINE#         110
+  C:0E00H         LINE#         112
+  C:0E0FH         LINE#         113
+  C:0E0FH         LINE#         114
+  C:0E61H         LINE#         115
+  C:0E6AH         LINE#         116
+  C:0E78H         LINE#         118
+  C:0E80H         LINE#         123
+  -------         ENDPROC       MAIN
+  -------         PROC          _HEX2DEC
+  D:0007H         SYMBOL        dat
+  C:0F62H         LINE#         126
+  C:0F62H         LINE#         127
+  C:0F62H         LINE#         128
+  C:0F66H         LINE#         129
+  C:0F70H         LINE#         130
+  C:0F73H         LINE#         131
+  -------         ENDPROC       _HEX2DEC
+  -------         PROC          _TXBYTE
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/21/2016  17:32:18  PAGE 4
+
+
+  D:0007H         SYMBOL        dat
+  C:0F74H         LINE#         133
+  C:0F74H         LINE#         134
+  C:0F74H         LINE#         135
+  C:0F76H         LINE#         136
+  C:0F78H         LINE#         137
+  C:0F7BH         LINE#         138
+  C:0F7DH         LINE#         139
+  -------         ENDPROC       _TXBYTE
+  -------         PROC          _PRINTSTRINGS
+  D:0001H         SYMBOL        sts
+  C:0F4FH         LINE#         142
+  C:0F4FH         LINE#         143
+  C:0F4FH         LINE#         144
+  C:0F61H         LINE#         145
+  -------         ENDPROC       _PRINTSTRINGS
+  -------         PROC          UART0_INIT
+  C:0F34H         LINE#         147
+  C:0F34H         LINE#         148
+  C:0F34H         LINE#         149
+  C:0F37H         LINE#         150
+  C:0F3AH         LINE#         152
+  C:0F42H         LINE#         153
+  C:0F45H         LINE#         154
+  C:0F48H         LINE#         155
+  C:0F4AH         LINE#         156
+  C:0F4CH         LINE#         157
+  C:0F4EH         LINE#         158
+  -------         ENDPROC       UART0_INIT
+  -------         PROC          UART0_RCV
+  C:0003H         LINE#         162
+  C:0009H         LINE#         164
+  C:000CH         LINE#         165
+  C:000CH         LINE#         166
+  C:000EH         LINE#         167
+  C:0014H         LINE#         168
+  C:0014H         LINE#         170
+  C:0017H         LINE#         171
+  C:0017H         LINE#         172
+  C:0019H         LINE#         173
+  C:001BH         LINE#         174
+  C:001BH         LINE#         175
+  -------         ENDPROC       UART0_RCV
+  -------         ENDMOD        UART0_ID_ROSC
+
+  -------         MODULE        ?C?COPY
+  C:0BC3H         PUBLIC        ?C?COPY
+  -------         ENDMOD        ?C?COPY
+
+  -------         MODULE        ?C?CLDPTR
+  C:0BE9H         PUBLIC        ?C?CLDPTR
+  -------         ENDMOD        ?C?CLDPTR
+
+  -------         MODULE        ?C?LSHL
+  C:0C02H         PUBLIC        ?C?LSHL
+  -------         ENDMOD        ?C?LSHL
+
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/21/2016  17:32:18  PAGE 5
+
+
+  -------         MODULE        ?C?LSTXDATA
+  C:0C15H         PUBLIC        ?C?LSTXDATA
+  -------         ENDMOD        ?C?LSTXDATA
+
+  -------         MODULE        ?C?LSTKXDATA
+  C:0C21H         PUBLIC        ?C?LSTKXDATA
+  -------         ENDMOD        ?C?LSTKXDATA
+
+  -------         MODULE        PRINTF
+  X:039CH         PUBLIC        ?_PRINTF517?BYTE
+  X:039CH         PUBLIC        ?_PRINTF?BYTE
+  X:039CH         PUBLIC        ?_SPRINTF517?BYTE
+  X:039CH         PUBLIC        ?_SPRINTF?BYTE
+  C:04F4H         PUBLIC        _PRINTF
+  C:04F4H         PUBLIC        _PRINTF517
+  C:04EEH         PUBLIC        _SPRINTF
+  C:04EEH         PUBLIC        _SPRINTF517
+  -------         ENDMOD        PRINTF
+
+  -------         MODULE        ?C?CLDOPTR
+  C:0C52H         PUBLIC        ?C?CLDOPTR
+  -------         ENDMOD        ?C?CLDOPTR
+
+  -------         MODULE        ?C?CSTPTR
+  C:0C7FH         PUBLIC        ?C?CSTPTR
+  -------         ENDMOD        ?C?CSTPTR
+
+  -------         MODULE        ?C?PLDIXDATA
+  C:0C91H         PUBLIC        ?C?PLDIXDATA
+  -------         ENDMOD        ?C?PLDIXDATA
+
+  -------         MODULE        ?C?PSTXDATA
+  C:0CA8H         PUBLIC        ?C?PSTXDATA
+  -------         ENDMOD        ?C?PSTXDATA
+
+  -------         MODULE        ?C?CCASE
+  C:0CB1H         PUBLIC        ?C?CCASE
+  -------         ENDMOD        ?C?CCASE
+
+  -------         MODULE        PUTCHAR
+  C:0F0DH         PUBLIC        _PUTCHAR
+  -------         ENDMOD        PUTCHAR
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+
+Program Size: data=15.2 xdata=964 code=3965
+LINK/LOCATE RUN COMPLETE.  1 WARNING(S),  0 ERROR(S)

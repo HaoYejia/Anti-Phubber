@@ -1,0 +1,1110 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\new online\SSJ´®¿ÚÆÁ\STC Àý³Ì\STC12C5A60S2-´®¿Ú1¶ÁID\UART0_app.uvproj
+Project File Date:  <unknown>
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+linking...
+Program Size: data=27.1 xdata=0 code=1044
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=27.1 xdata=0 code=699
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=27.1 xdata=0 code=699
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=27.1 xdata=0 code=699
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=27.1 xdata=0 code=699
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=27.1 xdata=0 code=699
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=27.1 xdata=0 code=699
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=27.1 xdata=0 code=699
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=27.1 xdata=0 code=699
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=27.1 xdata=0 code=699
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=27.1 xdata=0 code=699
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=27.1 xdata=0 code=699
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=28.1 xdata=0 code=341
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=28.1 xdata=0 code=343
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=28.1 xdata=0 code=343
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(59): error C129: missing ';' before 'name_to_str'
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(80): warning C206: 'sprintf': missing function-prototype
+UART0_ID-ROSC.C(80): error C267: 'sprintf': requires ANSI-style prototype
+UART0_ID-ROSC.C(80): error C202: 'x': undefined identifier
+UART0_ID-ROSC.C(80): error C141: syntax error near 'data'
+UART0_ID-ROSC.C(83): error C241: 'main': auto segment too large
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(80): warning C206: 'sprintf': missing function-prototype
+UART0_ID-ROSC.C(80): error C267: 'sprintf': requires ANSI-style prototype
+UART0_ID-ROSC.C(80): error C202: 'x': undefined identifier
+UART0_ID-ROSC.C(80): error C141: syntax error near 'data'
+UART0_ID-ROSC.C(83): error C241: 'main': auto segment too large
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(80): warning C206: 'sprintf': missing function-prototype
+UART0_ID-ROSC.C(80): error C267: 'sprintf': requires ANSI-style prototype
+UART0_ID-ROSC.C(80): error C202: 'x': undefined identifier
+UART0_ID-ROSC.C(80): error C141: syntax error near 'data'
+UART0_ID-ROSC.C(83): error C241: 'main': auto segment too large
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(80): warning C206: 'sprintf': missing function-prototype
+UART0_ID-ROSC.C(80): error C267: 'sprintf': requires ANSI-style prototype
+UART0_ID-ROSC.C(80): error C202: 'x': undefined identifier
+UART0_ID-ROSC.C(80): error C141: syntax error near 'data'
+UART0_ID-ROSC.C(83): error C241: 'main': auto segment too large
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(66): error C141: syntax error near ';'
+UART0_ID-ROSC.C(67): error C231: 'p': redefinition
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(68): error C141: syntax error near ';'
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(83): warning C206: 'sprintf': missing function-prototype
+UART0_ID-ROSC.C(83): error C267: 'sprintf': requires ANSI-style prototype
+UART0_ID-ROSC.C(83): error C141: syntax error near 'data'
+UART0_ID-ROSC.C(86): error C241: 'main': auto segment too large
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(83): warning C206: 'sprintf': missing function-prototype
+UART0_ID-ROSC.C(83): error C267: 'sprintf': requires ANSI-style prototype
+UART0_ID-ROSC.C(86): error C241: 'main': auto segment too large
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(83): warning C206: 'sprintf': missing function-prototype
+UART0_ID-ROSC.C(83): error C267: 'sprintf': requires ANSI-style prototype
+UART0_ID-ROSC.C(86): error C241: 'main': auto segment too large
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(86): error C241: 'main': auto segment too large
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(86): error C241: 'main': auto segment too large
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(88): error C241: 'main': auto segment too large
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=190 code=2018
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=190 code=2018
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=190 code=2030
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(86): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=190 code=2037
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=190 code=2037
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(86): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=190 code=2039
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=190 code=2039
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(86): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=190 code=2042
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=190 code=2042
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=191 code=2087
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=191 code=2087
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=191 code=2089
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=191 code=2089
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=191 code=2089
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRINTSTRINGS?UART0_ID_ROSC
+Program Size: data=15.2 xdata=191 code=2036
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRINTSTRINGS?UART0_ID_ROSC
+Program Size: data=15.2 xdata=191 code=2036
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRINTSTRINGS?UART0_ID_ROSC
+Program Size: data=15.2 xdata=191 code=1991
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRINTSTRINGS?UART0_ID_ROSC
+Program Size: data=15.2 xdata=191 code=1991
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRINTSTRINGS?UART0_ID_ROSC
+Program Size: data=15.2 xdata=191 code=1991
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(63): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRINTSTRINGS?UART0_ID_ROSC
+Program Size: data=15.2 xdata=191 code=1971
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRINTSTRINGS?UART0_ID_ROSC
+Program Size: data=15.2 xdata=191 code=1971
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(88): warning C206: 'delay_ms': missing function-prototype
+UART0_ID-ROSC.C(88): error C267: 'delay_ms': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRINTSTRINGS?UART0_ID_ROSC
+Program Size: data=15.2 xdata=189 code=1983
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRINTSTRINGS?UART0_ID_ROSC
+Program Size: data=15.2 xdata=189 code=1983
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRINTSTRINGS?UART0_ID_ROSC
+Program Size: data=15.2 xdata=189 code=1981
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRINTSTRINGS?UART0_ID_ROSC
+Program Size: data=15.2 xdata=189 code=1981
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(91): warning C206: 'itoa': missing function-prototype
+UART0_ID-ROSC.C(91): error C267: 'itoa': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(91): error C214: illegal pointer conversion
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(91): warning C206: 'itoa': missing function-prototype
+UART0_ID-ROSC.C(91): error C267: 'itoa': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-Rosc.c(25): warning C318: can't open file 'cstdlib.h'
+UART0_ID-ROSC.C(92): warning C206: 'itoa': missing function-prototype
+UART0_ID-ROSC.C(92): error C267: 'itoa': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(92): warning C206: 'itoa': missing function-prototype
+UART0_ID-ROSC.C(92): error C267: 'itoa': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(93): warning C206: 'itoa': missing function-prototype
+UART0_ID-ROSC.C(93): error C267: 'itoa': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(75): error C231: 'i': redefinition
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(73): warning C280: 'string': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRINTSTRINGS?UART0_ID_ROSC
+Program Size: data=15.2 xdata=221 code=2208
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C206: 'Uart_SendStr': missing function-prototype
+UART0_ID-ROSC.C(97): error C267: 'Uart_SendStr': requires ANSI-style prototype
+UART0_ID-ROSC.C(100): error C141: syntax error near 'while'
+UART0_ID-ROSC.C(100): error C141: syntax error near '1'
+UART0_ID-ROSC.C(106): error C141: syntax error near '=', expected ')'
+UART0_ID-ROSC.C(106): error C129: missing ';' before '<'
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+UART0_ID-ROSC.C(73): warning C280: 'string': unreferenced local variable
+UART0_ID-ROSC.C(100): error C141: syntax error near 'while'
+UART0_ID-ROSC.C(100): error C141: syntax error near '1'
+UART0_ID-ROSC.C(106): error C141: syntax error near '=', expected ')'
+UART0_ID-ROSC.C(106): error C129: missing ';' before '<'
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(73): warning C280: 'string': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=221 code=2287
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=221 code=2287
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=221 code=2287
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+UART0_ID-ROSC.C(73): warning C280: 'string': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=222 code=2204
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=222 code=2204
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+UART0_ID-ROSC.C(73): warning C280: 'string': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=222 code=2204
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=222 code=2204
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+UART0_ID-ROSC.C(73): warning C280: 'string': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=222 code=2204
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=222 code=2204
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=222 code=2204
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(73): error C231: 'cmd': redefinition
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(73): error C231: 'cmd': redefinition
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2204
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2204
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2204
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2204
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2204
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(74): warning C260: '=': pointer truncation
+UART0_ID-ROSC.C(92): error C216: subscript on non-array or too many dimensions
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2309
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2309
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2021
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2021
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2023
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2023
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2023
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2023
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2023
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(97): warning C259: 'parameter': pointer: different mspace
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+UART0_ID-ROSC.C(136): warning C259: pointer: different mspace
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2026
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2026
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2028
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2028
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=9.1 xdata=157 code=909
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=9.1 xdata=157 code=909
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=9.1 xdata=157 code=909
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=9.1 xdata=157 code=909
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2028
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2028
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2316
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2316
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2318
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2318
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2328
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2328
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(92): error C202: 'ch': undefined identifier
+UART0_ID-ROSC.C(93): error C202: 'ch': undefined identifier
+UART0_ID-ROSC.C(94): error C202: 'ch': undefined identifier
+UART0_ID-ROSC.C(96): error C202: 'ch': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(66): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2223
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=197 code=2223
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(86): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=965 code=4048
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(86): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=965 code=4048
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(86): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=965 code=4057
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=965 code=4057
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(86): warning C280: 'j': unreferenced local variable
+UART0_ID-ROSC.C(94): warning C280: 'ch': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=965 code=3848
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=965 code=3848
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=965 code=3848
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=965 code=3848
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(86): warning C280: 'j': unreferenced local variable
+UART0_ID-ROSC.C(94): warning C280: 'ch': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=965 code=3855
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=965 code=3855
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(94): warning C280: 'ch': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3911
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3911
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3911
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3911
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(94): warning C280: 'ch': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3966
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(94): warning C280: 'ch': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3966
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3966
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(94): warning C280: 'ch': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3966
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3966
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(94): warning C280: 'ch': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3966
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(94): warning C280: 'ch': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3965
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3965
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3965
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3965
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(94): warning C280: 'ch': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3965
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(94): warning C280: 'ch': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3965
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3965
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3965
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling UART0_ID-Rosc.c...
+UART0_ID-ROSC.C(94): warning C280: 'ch': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3965
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HEX2DEC?UART0_ID_ROSC
+Program Size: data=15.2 xdata=964 code=3965
+creating hex file from "UART0_app"...
+"UART0_app" - 0 Error(s), 1 Warning(s).

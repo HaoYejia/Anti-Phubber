@@ -1,3 +1,0 @@
-"UART0_ID-Rosc.obj" 
-TO "UART0_app" 
-RAMSIZE(256) 

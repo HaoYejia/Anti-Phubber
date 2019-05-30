@@ -1,8 +1,0 @@
----- GUI_Chinese Matches (7 in 4 files) ----
-GUI.c (e:\彩屏\彩屏代码（e盘空间不够，在此盘调试）\3.2_pcb_busyflaginside_pwmbl_enrisebusy20151028\3.2_pcb_busyflaginside_pwmbl_enrisebusy\user):void GUI_Chinese(u16 Xpos, u16 Ypos, u8 *str,u16 Color, u16 bkColor)
-GUI.h (e:\彩屏\彩屏代码（e盘空间不够，在此盘调试）\3.2_pcb_busyflaginside_pwmbl_enrisebusy20151028\3.2_pcb_busyflaginside_pwmbl_enrisebusy\user):void GUI_Chinese(u16 Xpos, u16 Ypos, u8 *str,u16 Color, u16 bkColor);
-Main.c (e:\彩屏\彩屏代码（e盘空间不够，在此盘调试）\3.2_pcb_busyflaginside_pwmbl_enrisebusy20151028\3.2_pcb_busyflaginside_pwmbl_enrisebusy\user)://	GUI_Chinese(10, 130, "啊把从的额分个和将看了吗",RED,BLUE);
-Main.c (e:\彩屏\彩屏代码（e盘空间不够，在此盘调试）\3.2_pcb_busyflaginside_pwmbl_enrisebusy20151028\3.2_pcb_busyflaginside_pwmbl_enrisebusy\user)://	GUI_Chinese(10, 160, "你哦怕去日是他我下有在",RED,BLUE);
-Main.c (e:\彩屏\彩屏代码（e盘空间不够，在此盘调试）\3.2_pcb_busyflaginside_pwmbl_enrisebusy20151028\3.2_pcb_busyflaginside_pwmbl_enrisebusy\user):	GUI_Chinese(10, 130, "啊把从的额分个和将看了吗",RED,BLUE);
-TOUCH2.htm (e:\彩屏\彩屏代码（e盘空间不够，在此盘调试）\3.2_pcb_busyflaginside_pwmbl_enrisebusy20151028\3.2_pcb_busyflaginside_pwmbl_enrisebusy\obj):<BR>[Called By]<UL><LI><a href="#[1b7495c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUI_Chinese
-TOUCH2.htm (e:\彩屏\彩屏代码（e盘空间不够，在此盘调试）\3.2_pcb_busyflaginside_pwmbl_enrisebusy20151028\3.2_pcb_busyflaginside_pwmbl_enrisebusy\obj):<P><STRONG><a name="[1b7495c]"></a>GUI_Chinese</STRONG> (Thumb, 80 bytes, Stack size 32 bytes, gui.o(.text), UNUSED)
