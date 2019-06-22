@@ -10,8 +10,8 @@ The Algorithm is still unsure, but here’s some possible routes:
 
 ### Direct one
 
-- The linear acceleration of each axis
-- The change in each angle of each axis
+- The linear acceleration on each axis
+- The change in each angle on each axis
 
 ### Implicit one
 
@@ -19,4 +19,5 @@ Notice the implicit one usually is hard to extract and required a lot of efforts
 
 ## Goal of this algorithm
 
-Minimum goal (the goal of producing a prototype): Correctly calculate the angle of lowering the head and ignore the problem of errors or shifts (such as zero shift). Also, the algorithm should be **universal** as the location of wearing often changes a lot. 
+Minimum goal (the goal of producing a prototype): Correctly calculate the angle of lowering the head and ignore the problem of errors or shifts (such as zero shift). Also, the algorithm should be **universal** as the location of wearing often changes a lot. In other words, I should figure out a way to **make sure this device can work smoothly with different wearing location.** 
+
