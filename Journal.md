@@ -205,3 +205,12 @@ The second one is to use add the new set of data to the pool of the sum of data 
 1. the experience to find the problem
 2. the use of pointer
 
+# Jul 3nd, 2019 - The instability of button Response
+
+The cause of this bug is surprisingly silly: I set the pin OUTPUT instead of INPUT, which lead to some unpredictable problems when reading the digital pin. 
+
+Through this bug is solved smoothly, there’s still pretty much thing that I learned in this process.
+
+The first point is that some microchip needs set an output signal before reading an input signal, or there’ll be some unpredictable errors. In other words, It needs to output a HIGH level for at least a few clock cycle before reading the pin. It’s required in many microchip, including the 51, or the AVR structure microchip (exactly the product I’m using now). This time it didn’t bring any errors, probably because the bootloader already have this built-in function. Anyway, it’s always the best solution to follow the standard structure instead of staring at the temporary faultless results.
+
+Another thing is that the microchip I’m using now actually has a built-in pull-up resistance, and can be utilized by a call. It can be a useful function, as I don’t have to prepare another outer resistance for pull-up. 

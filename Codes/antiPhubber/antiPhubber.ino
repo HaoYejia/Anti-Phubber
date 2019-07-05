@@ -2,111 +2,107 @@
 // 20190424
 
 #include <DFRobot_BMI160.h>
+#include <math.h>
 #include <BasicLinearAlgebra.h>
-#include<Math.h>
 using namespace BLA;
 
 DFRobot_BMI160 bmi160;
 const int8_t i2c_addr = 0x69;
-const int buttonPin = 10; //Define number of pin of the button
-int loopCount = 0; //A counter for the number of loops
-const int loopCountPre = 5; //The loop number that collect the 
+int buttonPin = 10; //This is the pin number of button
+int motorPin = 11;  //The pin of motor
+static float initPosition[3] = {0};
+float currentPosition[3] = {0};
+int buttonState = 0;
+int timeDura = 0;
+int timeInit = 0;
 
-
-
-void setup(){
-  pinMode(buttonPin,INPUT);
+void setup()
+{
   Serial.begin(115200);
   delay(100);
   
   //init the hardware bmin160  
-  if (bmi160.softReset() != BMI160_OK){
+  if (bmi160.softReset() != BMI160_OK)
+  {
     Serial.println("reset false");
     while(1);
   }
   
   //set and init the bmi160 i2c address
-  if (bmi160.I2cInit(i2c_addr) != BMI160_OK){
+  if (bmi160.I2cInit(i2c_addr) != BMI160_OK)
+  {
     Serial.println("init false");
     while(1);
   }
 
-  if (digitalRead(buttonPin) == HIGH) {
-	  delay(2000);
-	  if (digitalRead(buttonPin) == HIGH) {
-
-	  }
-	  else {}
-  }
-  else {}
+  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(buttonPin, INPUT);
+  pinMode(motorPin, OUTPUT);
 }
 
 void loop(){  
-  int i = 0;int k = 0;
+  int i = 0;
   int rslt;
-  int16_t accelGyro[6]={0}; //cpp文件533行，规定传入参数格式为int16_t
-  BLA::Matrix<3> accelRaw; BLA::Matrix<3> gyroRaw;
-  BLA::Matrix<3> accelDelta; BLA::Matrix<3> gyroDelta; //Zero-point deflection of IMU
-  BLA::Matrix<3> accelCorrected; BLA::Matrix<3> gyroCorrected; //Corrected value of angle and accel
-  
-  //get both accel and gyro data from bmi160
-  //parameter accelGyro is the pointer to store the data
-  rslt = bmi160.getAccelGyroData(accelGyro); //wtf?
-  
-  if(rslt == 0){
-    Serial.print(millis());Serial.print("\t"); //Serial print the timestamp, in milliseconds
-    
-    // Check the state of button and print it 
-    if(digitalRead(buttonPin)==HIGH){
-      Serial.print("OFF");Serial.print("\t"); 
-   }
-    if(digitalRead(buttonPin)==LOW){
-      Serial.print("ON");Serial.print("\t"); //Check Apr 20th,2019 in the journal for the reason why HIGH for off and LOW for on
-   }
+  int16_t accelGyro[6]={0}; 
+  float accel[3] = {0}; //Use accel[3] to store accleration data for now. It's possible it needs to reconstruct if I failed to let a function return array. In this worst case, I have to write all the correction algorithm in the mian file. 
+  float accelCorrected[3] = {0};
+  rslt = bmi160.getAccelGyroData(accelGyro);
 
-//     gyroRaw[0]=accelGyro[0]*3.14/180.0; //Don't know why, but this cannot be down with "for()", otherwise the accel data would never be got
-//     gyroRaw[1]=accelGyro[1]*3.14/180.0;
-//     gyroRaw[2]=accelGyro[2]*3.14/180.0;
-//     accelRaw[0] = accelGyro[3]/16384.0; //16384=2^14, which is the largest range of the original accel data. The unit of accel is g (gravational accelration)
-//     accelRaw[1] = accelGyro[4]/16384.0;
-//     accelRaw[2] = accelGyro[5]/16384.0;
-
-	//Use matrix to store the accel data in order for further calcultion
-	for (i = 1; i <= 3; i++) {
-		accelRaw(i) = accelGyro[i + 2] / 16384.0;
-		if (accelRaw(i) == 0){
-			Serial.print("ERROR: Accel data not get");
-		}
-		else{}
-	}
-       
-
-//print test of my version of output
-//       Serial.print(gyroRaw[0]); Serial.print("\t"); //DO NOT USE for(), or it'll not output sucessfully
-//       Serial.print(gyroRaw[1]); Serial.print("\t");
-//       Serial.print(gyroRaw[2]); Serial.print("\t");
-//       Serial.print(accelRaw[0]);Serial.print("\t");
-//       Serial.print(accelRaw[1]);Serial.print("\t");
-//       Serial.print(accelRaw[2]);Serial.print("\t");
-
-
-
-      Serial.println();
-      }
-
-   else{
+  //Extract the acceleration data from the gyroscope
+  if(rslt == 0)
+  {
+   /*
+   16384 is the number that is required to covert the binary 
+   data into the unit of "g", or "gravatational acceleration"
+   */
+   accel[0] = accelGyro[3]/16384.0;  
+   accel[1] = accelGyro[4]/16384.0;
+   accel[2] = accelGyro[5]/16384.0;
+  }
+  else
+  {
     Serial.println("err");
   }
-  k = accelcorrection(1,accelRaw,accelDelta);
-  accelCorrected = accelRaw - accelDelta; //Correcting the accel data
-//  BLA::Matrix<3> phubberAngle = headingReferenceCalculation(accelRaw);
+ 
+  //Print test for the acceldata
+ Serial.print(accel[0]);Serial.print("\t");
+ Serial.print(accel[1]);Serial.print("\t");
+ Serial.print(accel[2]);Serial.print("\t");
+ Serial.println();
+  
 
-//  for (k = 0;k < 3;k++) {
-//	  Serial.print(phubberAngle(k));
-//  }
-//  Serial.println();
+ //Recording the initial position of head
+  buttonState = digitalRead(buttonPin);
+  if (buttonState == LOW)  //Activate the recording if the button is pressed
+  {
+    digitalWrite(LED_BUILTIN, HIGH);
+    initPosition[0]=accel[0];
+    initPosition[1]=accel[1];
+    initPosition[2]=accel[2];
+	delay(50);
+	Serial.println("initposition Recorded");
+	timeInit = millis();
+    digitalWrite(LED_BUILTIN, LOW);
+  }
+  else {}
 
+
+ //Calculate the degree of lowering head
+  float degree = calcLoweringDeg(initPosition, accel);
+  Serial.print(degree);Serial.print("\t");
+  Serial.println();
+
+
+  //Decide whether to vibrate to set a caution
+  /*timeDura = millis() - timeInit;
+  if (judgment(degree, timeDura) > 0)
+  {
+	digitalWrite(motorPin, HIGH);
+  }
+  else
+  {
+	digitalWrite(motorPin, LOW);
+  }*/
+ 
   delay(100);
-
-  loopCount = loopCount +1;
 }

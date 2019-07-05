@@ -16,12 +16,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="antiPhubber.ino" />
-    <None Include="calcLoweringDeg.ino" />
-    <None Include="checkButtonState.ino" />
-    <None Include="judgment.ino" />
-    <None Include="viberate.ino" />
-    <None Include="334.ino" />
     <None Include="accelCorrection.ino" />
+    <None Include="headingReferenceCalculation.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.antiPhubber.vsarduino.h">
