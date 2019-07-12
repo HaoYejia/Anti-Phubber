@@ -22,6 +22,7 @@
     <None Include="viberate.ino" />
     <None Include="334.ino" />
     <None Include="accelCorrection.ino" />
+    <None Include="standby.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.antiPhubber.vsarduino.h">

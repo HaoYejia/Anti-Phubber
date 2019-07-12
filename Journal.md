@@ -214,3 +214,9 @@ Through this bug is solved smoothly, there’s still pretty much thing that I le
 The first point is that some microchip needs set an output signal before reading an input signal, or there’ll be some unpredictable errors. In other words, It needs to output a HIGH level for at least a few clock cycle before reading the pin. It’s required in many microchip, including the 51, or the AVR structure microchip (exactly the product I’m using now). This time it didn’t bring any errors, probably because the bootloader already have this built-in function. Anyway, it’s always the best solution to follow the standard structure instead of staring at the temporary faultless results.
 
 Another thing is that the microchip I’m using now actually has a built-in pull-up resistance, and can be utilized by a call. It can be a useful function, as I don’t have to prepare another outer resistance for pull-up. 
+
+# Jul 4th, 2019 - Jump Wire
+
+**NEVER EVER TRUST JUMP WIRE WHEN YOU USE IT TO PERFORME A LONG-LENGTH CONNECTION!!**
+
+To weld the wires or just use an single longer wire a DEFINIATELY a better choice.

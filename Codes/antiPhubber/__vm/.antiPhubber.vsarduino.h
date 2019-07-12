@@ -86,6 +86,7 @@ typedef void *__builtin_va_list;
 #include "calcLoweringDeg.ino"
 #include "checkButtonState.ino"
 #include "judgment.ino"
+#include "standby.ino"
 #include "viberate.ino"
 #endif
 #endif
