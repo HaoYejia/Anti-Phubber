@@ -13,7 +13,7 @@ Current progress:
 - [x] Connecting the wires and test each components separately
 - [x] Get the data from Gyroscope and display it on PC
 - [x] Figure out the algorithm
-- [ ] Finish the prototype and run the alpha test
+- [x] Finish the prototype and run the alpha test
 - [ ] Miniaturization, to become a qualified wearable device
 
 
