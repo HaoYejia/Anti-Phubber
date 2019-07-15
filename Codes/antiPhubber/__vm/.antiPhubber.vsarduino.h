@@ -81,12 +81,8 @@ typedef void *__builtin_va_list;
 #define pgm_read_ptr(address_short)   short()
 
 #include "antiPhubber.ino"
-#include "334.ino"
 #include "accelCorrection.ino"
 #include "calcLoweringDeg.ino"
-#include "checkButtonState.ino"
 #include "judgment.ino"
-#include "standby.ino"
-#include "viberate.ino"
 #endif
 #endif

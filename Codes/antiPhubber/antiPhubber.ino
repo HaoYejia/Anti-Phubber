@@ -1,9 +1,7 @@
 // Create by Yejia Hao
 // 20190424
-
 #include <DFRobot_BMI160.h>
 #include <math.h>
-#include <MsTimer2.h>
 
 DFRobot_BMI160 bmi160;
 const int8_t i2c_addr = 0x69;
@@ -13,22 +11,24 @@ static float initPosition[3] = {0};
 float currentPosition[3] = { 0 };
 int timeDura = 0;
 int timeInit = 0;
-int overLoadTime = 5*1000;  //In milliseconds. The maximum time that is allowed to overcome the lowering head degree
-float overLoadDegree = 30; //The warning degree of lowering the head
-int overLoadCounter = 0;
-float degree = 0;
+static float overLoadDegree = 30; //The warning degree of lowering the head
+static float degree = 0;
 boolean buttonPressed = false;
 
-static const int interruptPeriod = 2000; //The frequency of executing the interrupt. In unit ms.
+int interruptPeriod = 2000; //The frequency of executing the interrupt. In unit ms.
+int interruptTime = 0;
+int nowTime = 0;
+int overLoadTime = 5 * interruptPeriod;  //In milliseconds. The maximum time that is allowed to overcome the lowering head degree
+int overLoadCounter = 0; //The counter of the times of overloading the degree limit.
+
 static float overLoadKey = overLoadDegree * overLoadTime;
 static float accumulateKey = 0;
-int interruptCounter = 0;
-int interruptTimel = 1000;
 
 void setup()
 {
 	Serial.begin(115200);
 	delay(100);
+	interruptTime = interruptPeriod; //initiallize the first interrupt
   
 	//init the hardware bmin160  
 	if (bmi160.softReset() != BMI160_OK)
@@ -50,7 +50,8 @@ void setup()
 	pinMode(9, OUTPUT);
 }
 
-void loop(){  
+void loop()
+{  
 	digitalWrite(9, HIGH); // The LED on pin 9 as "working" LED
 	int i = 0;
 	int rslt;
@@ -60,7 +61,10 @@ void loop(){
 	int buttonState = 0;
 	rslt = bmi160.getAccelGyroData(accelGyro);
 	
-
+  if (degree<overLoadDegree)
+  {
+    digitalWrite(motorPin,LOW);
+  }
   //Extract the acceleration data from the gyroscope
 	if(rslt == 0)
 	{
@@ -89,18 +93,14 @@ void loop(){
 	if (buttonState == LOW)  //Activate the recording if the button is pressed
 	{
 		digitalWrite(LED_BUILTIN, HIGH);
-		initPosition[0]=accel[0];
-		initPosition[1]=accel[1];
-		initPosition[2]=accel[2];
+		initPosition[0] = accel[0];
+		initPosition[1] = accel[1];
+		initPosition[2] = accel[2];
 		delay(50);
 		Serial.println("initposition Recorded");
 		digitalWrite(LED_BUILTIN, LOW);
-	
-		timeDura = 0;
-		buttonPressed = true;
+		overLoadCounter = 0;
 	}
-	else {}
-
 
 	//Calculate the degree of lowering head
 	degree = calcLoweringDeg(initPosition, accel);
@@ -109,12 +109,45 @@ void loop(){
 
 
 	//Decide whether to vibrate to set a caution
-	while (buttonPressed == true)
+	//Use millis() to simulate the function of timer interrupt
+	//Check https://www.arduino.cn/thread-2890-1-1.html
+	nowTime = millis();
+	if (nowTime > interruptTime)
 	{
-		MsTimer2::set(interruptTimel,judgment);
-		MsTimer2::start();
+		if (degree >= overLoadDegree) 
+		{
+			overLoadCounter = overLoadCounter + 1;
+			if (overLoadCounter * interruptPeriod > overLoadTime) 
+			{
+				digitalWrite(motorPin, HIGH);
+			}
+			else {}
+		}
+		else
+		{
+			digitalWrite(motorPin, LOW);
+		}
+		interruptTime = nowTime + interruptPeriod;
 	}
 	
-	delay(100);
+	
+	//delay(100);
 }
 
+float calcLoweringDeg(float initAccel[3], float currentAccel[3])
+{
+	float dot = (initAccel[0] * currentAccel[0]) + (initAccel[1] * currentAccel[1]) + (initAccel[2] * currentAccel[2]);
+	float mod1 = sqrt(initAccel[0] * initAccel[0] + initAccel[1] * initAccel[1] + initAccel[2] * initAccel[2]);
+	float mod2 = sqrt(currentAccel[0] * currentAccel[0] + currentAccel[1] * currentAccel[1] + currentAccel[2] * currentAccel[2]);
+	float rslt = acos(dot / (mod1*mod2))*(180 / 3.141592);
+
+	if (rslt < 0)
+	{
+		rslt = -1 * rslt;
+		return rslt;
+	}
+	else
+	{
+		return rslt;
+	}
+}
